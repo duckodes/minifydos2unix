@@ -1,8 +1,8 @@
 # 快速行尾符號轉換工具
 
-## 與官方 `dos2unix` 的差異
+## 與[官方](https://github.com/tizenorg/platform.upstream.dos2unix) `dos2unix` 的差異
 
-| 功能面向 | 官方 `dos2unix` | `minifydos2unix` |
+| 功能面向 | [官方](https://github.com/tizenorg/platform.upstream.dos2unix) `dos2unix` | `minifydos2unix` |
 |----------|----------------|------------------|
 | **主要用途** | DOS/Windows → Unix 文字檔轉換 | 專注於 CRLF ↔ LF 換行符號轉換 |
 | **編碼處理** | 支援多種 DOS code page (CP437、CP850、CP1252 等) → ISO-8859-1 | 不處理編碼，保留原始位元組 |
